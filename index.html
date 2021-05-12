@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Product List</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Product List</h2>
+    <form id="product-form" class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <h6>Product Name</h6>
+          <input type="text" class="validate" id="p-name">
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <h6>Product Number</h6>
+          <input type="text" class="u-full-width" id="p-no">
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <h6>Price</h6>
+          <input type="text" class="u-full-width" id="price" placeholder="$USD - Write only number">
+        </div>
+      </div>
+      
+      <div>
+        <button class="btn waves-effect waves-light" type="submit" name="action">Add Product
+          <i class="material-icons right">add</i>
+        </button>
+      </div>
+    </form>
+    <br>
+    <table class="row">
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Product No</th>
+          <th>Price</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="product-list">
+      </tbody>
+    </table>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

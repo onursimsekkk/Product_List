@@ -1,0 +1,17 @@
+.success, .error {
+  color: white;
+  padding: 5px;
+  margin: 5px 0 15 0;
+  border-radius: 2px;
+}
+
+.success {
+  background-color: green;
+}
+
+.error {
+  background-color: rgb(216, 1, 1);
+}
+.delete {
+  color: rgb(206, 4, 4);
+}
