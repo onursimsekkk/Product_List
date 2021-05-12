@@ -11,4 +11,4 @@ It is a OOP product list project that you can add or delete products in UI. I us
 
 ---
 
-![project-img](product_list\readme_img\p_list_project.PNG)
+![project-img](readme_img\p_list_project.PNG)
